@@ -1,0 +1,37 @@
+# This is a example YAML file and writing procedures of YAML
+# format = key: value
+my-course: "Course MLOPs Bootcamp"
+version: 1.0
+price: 399
+available: True
+release_date: 2024=06-14 # date defult format year-month-date
+
+# format = key: [enter+space+point]
+category:
+  - ML
+  - MLOPs
+  - Data Science
+course_dev: ["John", "Smith", "Duke"]
+dev_detail:
+  - name: "John"
+    emali: "support@email.com"
+    role: "Author"
+  - name: "Smith"
+    emali: "support@email.com"
+    role: "Editor"
+    # we can write like this too
+  - { name: "Duke", email: "support@email.com", role: "Editor" }
+
+# we can write like this too
+short_describe: >
+  This is a course to 
+  learn how to deployment
+  a machine learning
+
+detailed_description: |
+  This course has 
+  been created with
+  the collaboration with
+  Industry Experts and
+  curated by In-house team to
+  give best learning experience

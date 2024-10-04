@@ -1,0 +1,9 @@
+# Model building requirements
+numpy==2.1.0
+pandas==2.2.2
+joblib==1.4.2
+scikit-learn==1.5.1
+scipy==1.14.1
+pytest==
+setuptools == 68.2.2
+wheel==0.41.2
